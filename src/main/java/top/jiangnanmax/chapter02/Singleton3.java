@@ -17,7 +17,7 @@ public class Singleton3 {
         System.out.println("This is new instance.");
     }
 
-    public static final Singleton3 getInstance() {
+    public static Singleton3 getInstance() {
         return My.single;
     }
 }
