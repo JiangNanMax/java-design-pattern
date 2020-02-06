@@ -11,14 +11,14 @@ public class CarSimpleFactory {
     public static final String MIDTYPE = "midtype";
     public static final String DNTYPE = "dntype";
 
-    public static ICar_3_1 create(String mark) throws Exception {
-        ICar_3_1 obj = null;
+    public static ICar create(String mark) throws Exception {   // 如此的话，耦合度极高，不易于扩展，例如，新增一个超高档类型的汽车，则需对if结构进行修改
+        ICar obj = null;
         if (mark.equals(UPTYPE)) {
-            obj = new UpCar_3_1();
+            obj = new UpCar();
         } else if (mark.equals(MIDTYPE)) {
-            obj = new MidCar_3_1();
+            obj = new MidCar();
         } else if (mark.equals(DNTYPE)) {
-            obj = new DnCar_3_1();
+            obj = new DnCar();
         } else {
             throw new Exception("没有对应的类型！");
         }

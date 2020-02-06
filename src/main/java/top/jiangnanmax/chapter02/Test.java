@@ -17,7 +17,7 @@ public class Test {
         System.out.println(111);
         Singleton3 obj2 = Singleton3.getInstance();
         */
-        String tmp = "jmy15059098650";
+        String tmp = "hk15059098650";
         long i = tmp.hashCode();
         System.out.println(i);
     }
