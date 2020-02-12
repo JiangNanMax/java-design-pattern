@@ -17,3 +17,9 @@ public class ProductTest {
         RequestMappingInfo
         BeanDefinitionBuilder
  */
+
+/*
+    还有一种建造者模式的实现方法
+    利用Product派生类方法，也可以实现类似的生成器功能
+    具体见v4
+ */
