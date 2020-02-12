@@ -18,3 +18,9 @@ public class Director {
         p.composite();
     }
 }
+
+/*
+    应用示例：
+        通用"更新"功能生成器模式代码
+        具体见v5
+ */
