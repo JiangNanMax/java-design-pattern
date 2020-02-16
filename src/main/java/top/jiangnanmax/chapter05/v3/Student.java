@@ -53,6 +53,7 @@ public class Student implements Cloneable, Serializable {
     }
 
     // 关键代码，在此处实现对象的序列化和反序列化
+    // 不过不推荐使用，因为较为消耗性能
     @Override
     protected Object clone() throws CloneNotSupportedException {
         Object obj = null;
