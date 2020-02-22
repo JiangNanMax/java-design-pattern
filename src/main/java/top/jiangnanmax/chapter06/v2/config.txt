@@ -1,0 +1,1 @@
+chain=top.jiangnanmax.chapter06.v2.ZuZhang,top.jiangnanmax.chapter06.v2.ZhuRen,top.jiangnanmax.chapter06.v2.JingLi
