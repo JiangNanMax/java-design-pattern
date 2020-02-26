@@ -14,3 +14,8 @@ public class Test {
         myChain.handle(request);
     }
 }
+
+/*
+    还可以通过回调技术来实现责任链模式
+    具体见v3
+ */
