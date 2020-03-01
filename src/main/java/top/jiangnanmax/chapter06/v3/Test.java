@@ -19,3 +19,10 @@ public class Test {
         System.out.println(response.value);
     }
 }
+/*
+    讨论：
+        从本示例中FilterChain类的doFilter方法可以看到，它实现
+    的其实是同步回调。若具体处理者花费时间很长，则应用程序就不能
+    执行其他功能了。当然，可以利用多线程来实现异步回调，就能解决
+    该问题，后续进行实现。
+ */
