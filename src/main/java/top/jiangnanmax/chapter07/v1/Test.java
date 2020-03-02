@@ -14,3 +14,7 @@ public class Test {
         invoke.execute();
     }
 }
+/*
+    感觉这个例子有点不太规范
+    继续用一个遥控器的例子来加深理解，具体看v2
+ */
