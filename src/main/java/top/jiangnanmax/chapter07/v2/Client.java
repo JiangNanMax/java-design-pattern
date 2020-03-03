@@ -18,5 +18,14 @@ public class Client {
         remoteController.undoBtnPushed();
         remoteController.offBtnPushed(0);
         remoteController.undoBtnPushed();
+
+        TvReceiver tvReceiver = new TvReceiver();
+        TvOnCommand tvOnCommand = new TvOnCommand(tvReceiver);
+        TvOffCommand tvOffCommand = new TvOffCommand(tvReceiver);
+        remoteController.setCommand(1, tvOnCommand, tvOffCommand);
+        remoteController.onBtnPushed(1);
+        remoteController.undoBtnPushed();
+        remoteController.offBtnPushed(1);
+        remoteController.undoBtnPushed();
     }
 }
