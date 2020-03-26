@@ -28,6 +28,15 @@ public class Test {
             c.add("array " + i);
         }
         traverse(c);
+
+        System.out.println("---------------------");
+
+        MyCollection c2 = new MyLinkedList();
+        for (int i = 0; i < 10; i++) {
+            c2.add("link " + i);
+        }
+        traverse(c2);
+
     }
 
 }
