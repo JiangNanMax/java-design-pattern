@@ -33,7 +33,7 @@ public class Singleton2 {
     }
 
     // 同步方法2 部分同步
-    public static synchronized Singleton2 getInstance2() {
+    public static Singleton2 getInstance2() {
         if (single == null) {
             synchronized (Singleton2.class) {
                 if (single == null) {
